@@ -11,6 +11,10 @@ include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 -include vendor/xiaomi/munch-miuicamera/products/board.mk
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
+# Firmware
+-include vendor/xiaomi-firmware/munch/BoardConfigVendor.mk
+
 DEVICE_PATH := device/xiaomi/munch
 
 BUILD_BROKEN_DUP_RULES := true
