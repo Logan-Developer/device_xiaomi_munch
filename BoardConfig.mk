@@ -14,6 +14,9 @@ BUILD_BROKEN_DUP_RULES := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Firmware
+-include vendor/xiaomi-firmware/munch/BoardConfigVendor.mk
+
 # Kernel
 TARGET_KERNEL_CONFIG := munch_defconfig
 
