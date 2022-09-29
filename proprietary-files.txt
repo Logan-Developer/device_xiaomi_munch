@@ -413,6 +413,7 @@ vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
 
 # Display-calibration
+vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
 vendor/etc/mdss_dsi_l11r_38_08_0a_dsc_cmd_mi.xml
 vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
