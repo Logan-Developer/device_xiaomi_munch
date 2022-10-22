@@ -20,13 +20,17 @@ EVO_SIGNED := false
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# EvolutionX bundles gapps by default
+WITH_GMS := true
+
+# Device identifier. This must come after all inclusions.
 PRODUCT_NAME := evolution_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F4
-
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
    PRIVATE_BUILD_DESC="missi-user 12 SKQ1.211006.001 V13.0.5.0.SLMMIXM release-keys"
