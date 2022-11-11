@@ -13,9 +13,10 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/munch-miuicamera/products/miuicamera.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-evolution
+PRODUCT_PACKAGES += \
+    FrameworksResMunch \
+    SettingsResMunch \
+    SystemUIResMunch
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
