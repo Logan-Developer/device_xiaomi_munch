@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_munch.mk
+    $(LOCAL_DIR)/evolution_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_munch-user \
-    corvus_munch-userdebug \
-    corvus_munch-eng
+    evolution_munch-user \
+    evolution_munch-userdebug \
+    evolution_munch-eng
