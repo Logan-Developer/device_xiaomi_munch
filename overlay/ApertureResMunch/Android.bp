@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "ApertureResMunch",
+    product_specific: true,
+}
