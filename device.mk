@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 PRODUCT_PACKAGES += \
     ApertureResMunch \
     FrameworksResMunch \
+    SettingsOverlay22021211RC \
+    SettingsOverlay22021211RG \
+    SettingsOverlay22021211RI \
     SettingsResMunch \
     SystemUIResMunch
 
