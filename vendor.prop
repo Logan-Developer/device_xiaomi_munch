@@ -31,5 +31,4 @@ ro.vendor.audio.voice.volume.boost=none
 vendor.audio.lowpower=true
 
 # Refresh Rate
-ro.vendor.display.touch.idle.enable=true
 debug.sf.frame_rate_multiple_threshold=120
