@@ -15,8 +15,6 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-EVO_BUILD_TYPE := UNOFFICIAL
-EVO_SIGNED := false
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
