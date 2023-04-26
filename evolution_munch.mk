@@ -19,8 +19,6 @@ ifneq ($(NO_GMS),true)
 $(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
 endif
 
-TARGET_SUPPORTS_CALL_RECORDING := true
-
 PRODUCT_NAME := evolution_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
@@ -32,9 +30,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 BUILD_FINGERPRINT := Redmi/munch/munch:13/RKQ1.211001.001/V14.0.1.0.TLMMIXM:user/release-keys
 
 # EvolutionX specific values
-EVO_BUILD_TYPE := OFFICIAL
-EVO_SIGNED := false
 TARGET_SUPPORTS_QUICK_TAP := true
-EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_CALL_RECORDING := true
