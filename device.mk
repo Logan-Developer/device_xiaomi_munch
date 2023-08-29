@@ -10,10 +10,15 @@ TARGET_IS_VAB := true
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
+# NFC
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.boot.hardware.sku=munch
+
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureResMunch \
     FrameworksResMunch \
+    NfcOverlayMunch \
     SettingsOverlay22021211RC \
     SettingsOverlay22021211RG \
     SettingsOverlay22021211RI \
